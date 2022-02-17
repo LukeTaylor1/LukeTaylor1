@@ -1,0 +1,158 @@
+body{
+	min-height: 100vh;
+    max-width: 1366px;
+    background-color: whitesmoke; 
+    margin: 0 auto;
+	font-family: 'Roboto Mono', monospace;
+}
+
+/*
+.gallery{
+	
+	display: grid;
+	grid-template-columns: 12px 12px 12px;
+	grid-template-rows: 12px 12px 12px;
+	grid-gap: 6px;
+	
+
+	min-height: 100vh;
+    max-width: 1366px;
+    background-color: whitesmoke; 
+    margin: 0 auto;
+	
+}
+*/
+
+#relaxinFall{
+	position: absolute;
+	height: 203px;
+	width: 305px;
+	top: 10px;
+	left: 54px;
+}
+#basketball1{
+	height: 195px;
+	width: 143px;
+	position: absolute;
+	top: 236px;
+	left: 207px;
+}
+
+#basketball2{
+	position: absolute;
+	height: 203px;
+	width: 332px;
+	top: 10px;
+	left: 385px;
+}
+
+#gymnastic1{
+	height: 218px;
+	width: 198px;
+	position: absolute;
+	top: 234px;
+	left: 372px;
+}
+
+#gymnastic2{
+	height: 370px;
+	width: 247px;
+	position: absolute;
+	top: 234px;
+	left: 859px;
+
+}
+
+#willyT{
+	height: 204px;
+	width: 306;
+	position: absolute;
+	top: 10px;
+	left: 1067px;
+}
+
+#constructionShot{
+	height: 369px;
+	width: 245px;
+	position:absolute;
+	top: 234px;
+	left: 592px;
+}
+
+#Blake1{
+	height: 366px;
+	width: 244px;
+	position: absolute;
+	top: 234px;
+	left: 1127px;
+}
+
+#RGAN{
+	height: 132px;
+	width: 199px;
+	position:absolute;
+	top: 474px;
+	left: 371px;
+	z-index: 1;
+}
+
+#blurredCar{
+	height: 203px;
+	width: 305px;
+	position:absolute;
+	top: 10px;
+	left: 739px;
+}
+
+#blake2{
+	height: 197px;
+	width: 131px;
+	position:absolute;
+	top: 235px;
+	left: 54px;
+}
+
+#willyT2{
+	height: 163px;
+	width: 245px;
+	position:absolute;
+	top: 442px;
+	left: 106px;
+}
+
+#home{
+	font-size: 42px;
+	position: absolute;
+	top: 610px;
+	left: 595px;
+	text-decoration: none;
+	color: black;
+}
+
+.photographyTitle{
+	font-size: 84px;
+	position: absolute;
+	left: 23px;
+	top: 490px;
+	z-index: 0;
+}
+
+.floating {
+    animation: floating 3.0s infinite ease-in-out;
+}
+
+.floating2{
+    animation: floating 1.5s infinite ease-in-out;
+}
+
+.floating3{
+    animation: floating 4.0s infinite ease-in-out;
+}
+
+
+@keyframes floating {
+    0% {transform: translate(0, 0px);}
+    50% {transform: translate(0, 15px);}
+    100% {transform: translate(0, -0px);}
+    
+}
